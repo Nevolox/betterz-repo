@@ -122,7 +122,7 @@
 					}
 
 					#app-mount .titleBar-AC4pGV.typeWindows-1za-n7::after{
-						background: var(--icon)  5px 0/15px 17px no-repeat;
+						background: var(--icon)  10px 0/15px 17px no-repeat;
 						height: 20px;
 						width: 20px;
 						left: 5px;
@@ -256,7 +256,7 @@
     --hover-modifier: hsla(220, 15%, 20%, .1);
     --active-modifier: hsla(220, 15%, 20%, .2);
     --selected-modifier: hsla(220, 15%, 20%, .3);
-	--icon: url("https://cdn.discordapp.com/attachments/647508440721260544/830566346286563328/floatingisland.gif")!important;
+    --icon: url("https://cdn.discordapp.com/attachments/647508440721260544/830566346286563328/floatingisland.gif")!important;
 }
 
 /* change colors */
