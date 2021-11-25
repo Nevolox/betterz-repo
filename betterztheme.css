@@ -134,12 +134,30 @@
 						-webkit-transition: all 0.2s ease;
 						transition: all 0.2s ease;
 					}
+					@keyframes betterzlogo {
+						/*background: linear-gradient(270deg, #f32222 69%, #C779D0); */
+						background: linear-gradient(120deg,
+						rgb(0,64,255),
+						rgb(0,64,255),
+						rgb(0,64,255),
+						rgb(128, 0, 255),
+						rgb(255, 0, 0),
+						rgb(255, 145, 0),
+						rgb(2, 190, 2),
+						rgb(0,64,255),
+						rgb(128, 0, 255),
+						rgb(255, 0, 0),
+						rgb(255, 145, 0),
+						rgb(2, 190, 2),
+						rgb(0, 0, 0)
+						transition: 0.25s ease;
+					}
 
 					#app-mount .titleBar-AC4pGV .wordmark-2iDDfm::after {
 						content: "Better-Cord";
 						position: absolute;
 						font-family: "Comic Sans MS";
-						background: linear-gradient(270deg, #f32222 69%, #C779D0); 
+						
 						-webkit-background-clip: text;
 						-webkit-text-fill-color: transparent;
 						background-clip: text;
@@ -149,6 +167,7 @@
 						top: 4px;
 						left: 5px;
 						width: 135px;
+						animation: betterzlogo 4s infinite;
 					}
 
 
