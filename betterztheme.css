@@ -670,6 +670,61 @@
 
 /* other */
 
+[class*="userPopout"] [class*="popoutBanner"],
+[class*="userPopout"] [class*="profileBanner"] {
+height: 120px !important;
+max-height: var(--user-background, 60px) !important;
+}
+[class*="profileBanner"] {
+height: 240px !important;
+max-height: var(--user-background, 120px) !important;
+}
+[class*="popoutBanner"]::before,
+[class*="profileBanner"]::before {
+content: "";
+position: absolute;
+background: #000 var(--user-background) var(--user-popout-position, center)/cover no-repeat;
+background-attachment: var(--user-background, fixed);
+top: 0; right: 0;
+bottom: 0; left: 0;
+}
+[class*="userPopout"] > [class*="avatarPositionNormal"] {
+top: 76px !important;
+margin-top: var(--user-background, -60px) !important;
+}
+[class*="userPopout"] > [class*="headerTop"] {
+padding: 58px 16px 16px;
+}
+[class*="headerTop"] {
+min-height: 32px;
+}
+[class*="popoutBannerPremium"] {
+padding-top: 60px;
+}
+[class*="header"] [class*="wrapper"]::before {
+content: '';
+position: absolute;
+top: -72px;
+left: 213px;
+width: 242%;
+height: 180px;
+pointer-events: none;
+background: #000 var(--user-background) var(--user-popout-position, center)/cover no-repeat;
+background-attachment: var(--user-background, fixed);
+}
+[class*="header-QKLPzZ"] {
+transform: translateZ(0);
+}
+[class*="headerInfo"] {
+position: relative;
+z-index: 1;
+}
+[class*="root"] [class*="banner"] {
+padding-top: 60px;
+}
+/* Rewrite Fix - Active Now */
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.container-1D34oG > div > div.nowPlayingColumn-2sl4cE > div > div > div/**/ > div > header > div.headerAvatar-2MDZJn.wrapper-3t9DeA {width: 0px !important;}
+
 
 /*.size12-3cLvbJ:last-child::after{content:"\a" "BetterZ Cord by David, Credit: Friend Grid by CorllanStoma " !important;text-transform:none;white-space:pre;-webkit-user-select:all;-moz-user-select:all;user-select:all}
 */
