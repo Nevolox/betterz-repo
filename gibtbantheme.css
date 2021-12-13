@@ -1,0 +1,145 @@
+:root {
+    --background-image: linear-gradient(to bottom, rgba(44, 44, 44, 0.37), rgba(44, 44, 44, 0.37)), url('https://cdn.discordapp.com/attachments/827567511796056124/915348680100413450/3747796.jpg');
+
+}
+
+
+#app-mount {
+	--background-tertiary: transparent;
+	--background-secondary: transparent;
+	background: var(--background-image) center/cover no-repeat;
+}
+
+
+
+.chat-3bRxxu {
+    background: none !important;
+	
+}
+
+.title-3qD0b- {
+    background: none !important;
+    width: auto;
+}
+
+.channelName-1JRO3C {
+    background: none;
+}
+
+.panels-j1Uci_ {
+	background: none;
+}
+
+#app-mount .titleBar-AC4pGV .wordmark-2iDDfm svg {
+	width: 0;
+}
+
+#app-mount .titleBar-AC4pGV .wordmark-2iDDfm::after {
+	content: "GibtBan";
+	position: absolute;
+	font-family: "Comic Sans MS";
+	background: gainsboro;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	background-size: 200% 200%;
+	font-size: 16px;
+	font-weight: 600;
+	top: 4px;
+	left: 5px;
+	width: 135px;
+
+}
+
+.avatar-1BDn8e.clickable-1bVtEA { 
+    filter: drop-shadow(0 0 3px);
+    color: pink;
+    }
+    
+    .avatar-1BDn8e:hover.clickable-1bVtEA:hover {
+    filter: drop-shadow(0 0 8px);
+    color: gainsboro;
+    transform: rotate(360deg);
+    transition: width .5s ease, height .5s ease, transform .5s ease;
+    }
+
+	.sidebarRegionScroller-3MXcoP,
+	.scroller-1JbKMe,
+	.privateChannels-1nO12o,
+	.panels-j1Uci_,
+	.sidebar-2K8pFh > div {
+		background: var(--background-image);
+
+
+
+	}
+
+
+	#app-mount .layer-3QrUeG[aria-label*=USER_SETTINGS] .background-1QDuV2 {
+		background: transparent;
+
+	}
+
+
+	#app-mount .contentColumn-2hrIYH > div {
+		background: none;
+	}
+
+	#app-mount .contentTransitionWrap-3hqOEW > div {
+		background: var(--background-image);
+		background-blend-mode: darken;
+		background-position: 100%;
+		background-size: auto;
+	}
+
+	#app-mount .textArea-12jD-V{
+		background: transparent;
+
+	}
+
+	#app-mount .inner-MADQqc {
+		background: var(--background-image);
+
+		background-size: auto;
+	}
+
+	#app-mount .peopleList-3c4jOR {
+		background: var(--background-image);
+		background-position: 50%;
+		background-size: auto;
+	}
+
+	#app-mount .container-1r6BKw {
+		background: var(--background-image);
+		background-size: auto;
+	}
+
+	#app-mount .scroller-2ZPeAD {
+		background: var(--background-image);
+		background-position: right;
+		
+	}
+	
+
+	#app-mount .messageContent-2qWWxC {
+		color: pink;
+	}
+
+   #app-mount .slateTextArea-1Mkdgw {
+	   color: pink;
+   }
+
+   #app-mount .bd-description-wrap, .bd-footer {
+	   background-color: rgba(44, 44, 44, 0.541);
+   }
+
+   #app-mount .container-19hC9u {
+	   background: var(--background-image);
+	   background-position: -250px;
+   }
+
+  #app-mount .auto-Ge5KZx {
+	  background: var(--background-image);
+	  background-position: -250px;
+  }
+  
