@@ -729,6 +729,19 @@ padding-top: 60px;
 /*.size12-3cLvbJ:last-child::after{content:"\a" "BetterZ Cord by David, Credit: Friend Grid by CorllanStoma " !important;text-transform:none;white-space:pre;-webkit-user-select:all;-moz-user-select:all;user-select:all}
 */
 
+.userPopout-3XzG_A:not([style*="-user-background"]) .profileBanner-33-uE1 {
+    height: 60px;
+    }
+    .userPopout-3XzG_A:not([style*="-user-background"]) .avatarWrapperNormal-2tu8Ts {
+    top: 16px;
+    }
+    .userPopout-3XzG_A[style*="-user-background"] .profileBanner-33-uE1 {
+    height: var(--USRBG-banner-height, 120px);
+    }
+    .userPopout-3XzG_A[style*="-user-background"] .avatarWrapperNormal-2tu8Ts { 
+    top: var(--USRBG-avatar-offset, 76px);
+    }
+
 html.theme-light .app-2rEoOp::after {
 	content: "BetterZ-Cord unterstützt Light mode nicht, bitte warum willst du auch Light mode usen?!?!";
 	line-height: 1.5;
