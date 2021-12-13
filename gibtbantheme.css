@@ -1,10 +1,8 @@
 
 :root {
-    --background-image: linear-gradient(to bottom rgba(44, 44, 44, 0.37), rgba(44, 44, 44, 0.37)), url('https://cdn.discordapp.com/attachments/827567511796056124/915348680100413450/3747796.jpg');
-    --bubble-color: var(--background-tertiary);
-    --bubble-padding: 5px 8px;
-    --bubble-arrow-size: 5px;
-    }
+    --background-image: linear-gradient(to bottom, rgba(44, 44, 44, 0.37), rgba(44, 44, 44, 0.37)), url('https://cdn.discordapp.com/attachments/827567511796056124/915348680100413450/3747796.jpg');
+
+}
 
 
 #app-mount {
@@ -17,7 +15,7 @@
 
 .chat-3bRxxu {
     background: none !important;
-	
+
 }
 
 .title-3qD0b- {
@@ -41,7 +39,7 @@
 	content: "GibtBan";
 	position: absolute;
 	font-family: "Comic Sans MS";
-	background: linear-gradient(to bottom rgba(239, 71, 245, 0.37), rgba(252, 74, 252, 0.233));
+	background: gainsboro;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
@@ -58,7 +56,7 @@
     filter: drop-shadow(0 0 3px);
     color: pink;
     }
-    
+
     .avatar-1BDn8e:hover.clickable-1bVtEA:hover {
     filter: drop-shadow(0 0 8px);
     color: gainsboro;
@@ -120,9 +118,9 @@
 	#app-mount .scroller-2ZPeAD {
 		background: var(--background-image);
 		background-position: right;
-		
+
 	}
-	
+
 
 	#app-mount .messageContent-2qWWxC {
 		color: pink;
@@ -145,4 +143,3 @@
 	  background: var(--background-image);
 	  background-position: -250px;
   }
-  
