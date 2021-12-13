@@ -41,7 +41,7 @@
 	content: "GibtBan";
 	position: absolute;
 	font-family: "Comic Sans MS";
-	background: linear-gradient();
+	background: linear-gradient(to bottom rgba(239, 71, 245, 0.37), rgba(252, 74, 252, 0.233));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
