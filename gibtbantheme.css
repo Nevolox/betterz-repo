@@ -51,6 +51,17 @@
 
 }
 
+.username-1A8OIy, .headerName-fajvi9, .usernameFont-23TX-h, .headerNameWrapper-3res2c{
+	font-weight: 1000 !important;
+	transition: filter .1s ease-in-out .1s;
+	filter: brightness(0.95) invert(0) !important;
+	text-shadow: 0px 0px 5px;
+	}
+	
+	.username-1A8OIy:hover, .headerName-fajvi9:hover, .usernameFont-23TX-h:hover, .headerNameWrapper-3res2c:hover {
+	filter: brightness(1500) invert(0) !important;
+	}
+
 .avatar-1BDn8e.clickable-1bVtEA { 
     filter: drop-shadow(0 0 3px);
     color: pink;
