@@ -1,37 +1,11 @@
 
 :root {
-	--background-image: linear-gradient(to bottom, rgba(44, 44, 44, 0.37), rgba(44, 44, 44, 0.37)), url('https://cdn.discordapp.com/attachments/827567511796056124/915348680100413450/3747796.jpg');
+    --background-image: linear-gradient(to bottom rgba(161, 32, 212, 0.568), rgba(195, 126, 252, 0.363)), url('https://cdn.discordapp.com/attachments/827567511796056124/915348680100413450/3747796.jpg');
     --bubble-color: var(--background-tertiary);
     --bubble-padding: 5px 8px;
     --bubble-arrow-size: 5px;
     }
-    .cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
-    background-color: var(--bubble-color);
-    display: inline-block;
-    max-width: 100%;
-    margin: 0;
-    padding: var(--bubble-padding);
-    border-radius: 5px;
-    position: relative;
-    overflow: visible;
-    }
-    .cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j blockquote,
-    .cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j pre {
-    max-width: unset;
-    }
-    .groupStart-23k01U.cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j {
-    border-top-left-radius: 0;
-    }
-    .groupStart-23k01U.cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j::before {
-    content: '';
-    display: block;
-    border-style: solid;
-    border-width: 0 var(--bubble-arrow-size) var(--bubble-arrow-size) 0;
-    border-color: transparent var(--bubble-color) transparent transparent;
-    position: absolute;
-    left: calc(var(--bubble-arrow-size) * -1);
-    top: 0;
-    }
+
 
 #app-mount {
 	--background-tertiary: transparent;
@@ -67,7 +41,7 @@
 	content: "GibtBan";
 	position: absolute;
 	font-family: "Comic Sans MS";
-	background: gainsboro;
+	background: linear-gradient();
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
